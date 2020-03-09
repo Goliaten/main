@@ -1,0 +1,18 @@
+try:
+    o = int(o)
+except:
+    if o == 'ex':
+        z = 1
+        break
+    else:
+        print('Wrong input')
+        print()
+else:
+    y -= 1
+    if o > y or o < 0:
+        print('Choice out of range')
+        print()
+        continue
+    else:
+        z = 0
+        break
